@@ -8,14 +8,12 @@
 import SwiftUI
 
 struct ContentView: View {
+    
+    // сделать чтобы в магазине можно было купить бустер на то чтобы быстро стрелять
+    // если он куплен появляется кнопка в игре и написано какое количество раз может примениться бустер
+    
     var body: some View {
-        VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundStyle(.tint)
-            Text("Hello, world!")
-        }
-        .padding()
+        MenuView()
     }
 }
 
